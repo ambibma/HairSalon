@@ -2,13 +2,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HairSalon.Models
 {
-  public class DineDashContext : DbContext
+  public class HairSalonContext : DbContext
   {
 
-    public DbSet<Restaurant> Stylists { get; set; }
-    public DbSet<Cuisine> Clients { get; set; }
+    public DbSet<Stylist> Stylists { get; set; }
+    public DbSet<Client> Clients { get; set; }
     
 
-    public DineDashContext(DbContextOptions options) : base(options) { }
+    public HairSalonContext(DbContextOptions options) : base(options) { }
   }
 }
