@@ -1,10 +1,11 @@
 @{
   Layout = "_Layout";
 }
-
+@using HairSalon.Models
 @model HairSalon.Models.Client
 
 <h4> Add a new Client</h4>
+
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Name)
