@@ -31,7 +31,7 @@ namespace HairSalon.Controllers
     [HttpPost]
     public ActionResult Create(Client client)
     {
-      if (client.StylistId == null)
+      if (client.Stylist == null)
       {
         return RedirectToAction("Create");
       }

@@ -1,0 +1,46 @@
+html {
+  background-color: lightpink;
+}
+
+body {
+  background-color: lightpink;
+  margin-top: 30vh;
+}
+
+.vines {
+  background-image: url('/wwwroot/assets/imgs/vines.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -27vh;
+  background-color: white;
+  position: absolute;
+  justify-content: first baseline;
+  align-items: center;
+  font-size: 200%;
+}
+
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 60vh;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+.formBox{  
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 98px;
+    width: 60vh;
+    margin: 0 auto;
+    background-color: bisque;
+    text-align: center;
+    line-break: auto;
+  }

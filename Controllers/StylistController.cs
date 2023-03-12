@@ -62,11 +62,13 @@ namespace HairSalon.Controllers
       public ActionResult Edit(int id)
       {
         Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
+        ViewBag.ClientId = new SelectList(_db.Clients, "ClientId", "Name");
         return View(thisStylist);
       }
       [HttpPost]
       public ActionResult Edit(Stylist stylist)
       {
+
         _db.Stylists.Update(stylist);
         _db.SaveChanges();
         return RedirectToAction("Index");

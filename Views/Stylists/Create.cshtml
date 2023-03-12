@@ -3,20 +3,15 @@
 }
 
 @model HairSalon.Models.Stylist
-
-<h4> Add a new Stylist</h4>
-@using (Html.BeginForm())
-{
+<div class="formBox">
+  <h4> Add a new Stylist</h4>
+  @using (Html.BeginForm())
+  {
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
-
   @Html.LabelFor(model => model.HireDate)
-  @Html.TextBoxFor(model => model.HireDate)
-
- 
-
-  
-
+  @Html.TextBoxFor(model => model.HireDate) 
   <input type = "submit" value="Add a new Stylist" />
-}
-<p>@Html.ActionLink("Show all Stylists", "Index")</p>
+  }
+  <p>@Html.ActionLink("Show all Stylists", "Index")</p>
+</div>
