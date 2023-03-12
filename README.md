@@ -46,7 +46,7 @@ Note: In order for this application to work you will need to create called appse
    $ mkdir properties
    $ touch properties/launchSettings.JSON
    ```
-* Pase the following code...
+* Paste the following code...
     ```JSON
     {
         "profiles": {
