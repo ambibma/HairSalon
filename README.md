@@ -29,9 +29,9 @@ Note: In order for this application to work you will need to create called appse
   ```bash
     $ dotnet restore
     ```
-* Create appsettings.Json
+* Create appsettings.json
     ```bash
-    $ touch appseetings.Json
+    $ touch appseetings.json
     ```
 * Paste the following code and enter your mysql username and password
     ```JSON

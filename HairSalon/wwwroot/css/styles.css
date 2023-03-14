@@ -7,8 +7,8 @@ body {
   margin-top: 30vh;
 }
 
-.vines {
-  background-image: url('/wwwroot/assets/imgs/vines.png');
+.vines  {
+  
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -19,6 +19,10 @@ body {
   justify-content: first baseline;
   align-items: center;
   font-size: 200%;
+}
+.vines img {
+  width:25vw;
+  
 }
 
 .splash {
